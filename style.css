@@ -6,6 +6,13 @@ body {
 h1 {
   justify-content: center;
   text-align: center;
+  background-color: rgba(16, 105, 128, 0.322);
+  color: #fff;
+  font-weight: 1200;
+  font-size: 42px;
+  border: 5px solid #0f0a36;
+  border-radius: 20px;
+  margin-bottom: 70px;
 }
 .container {
   color: #fff;
@@ -65,6 +72,16 @@ h2 {
   font-size: 30px;
   font-weight: 600;
   margin: 6px 0 0 8px;
+}
+.container2 {
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  border: 5px solid #323232;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0 0 0;
 }
 .box5 {
   position: relative;
